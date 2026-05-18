@@ -5,7 +5,8 @@ Un groupe a révélé une technique "simple" (dans sa utilisation, quelques fich
 Plusieurs choses que je n'explique pas :
 
 1. Si on accède à un contenu qui est chiffré, comment est-il déchiffré sans utilisation de clef ou de mot de passe ? Cela signifie que M&S a une clef magique permettant de tout déchiffrer ?
-2. Comme se groupe ayant révélé ceci a eu idée de créer cette arborescence, d'utiliser ces noms de fichiers et ce contenu de fichiers ? Fuite interne d'une procédure réservée à M&S ?
+2. Comme ce groupe ayant révélé ceci a eu l'idée de créer cette arborescence, d'utiliser ces noms de fichiers et ce contenu de fichiers ? Fuite interne d'une procédure réservée à M&S ? Reverse engineering (ouch) ?
+3. Que'est-ce que c'est que ces fichiers... ?! Plutôt vides, avec des références à des fichiers de logs... La seule référence semblant être intéressante celle à `Windows\System32\winpeshl.ini`...
 
 ## 1. Analyse des fichiers
 
@@ -86,7 +87,7 @@ god@mode:FsTx/95F62703B343F111A92A005056975458/FsTxLogs$ diff FsTxKtmLogContaine
 t
 ```
 
-N.B : Pour passer du binary à l'héxadécimal : 
+N.B : Pour passer du binary à l'hexadécimal : 
 
 ```
 $ xxd FsTxKtmLogContainer00000000000000000001 > FsTxKtmLogContainer00000000000000000001.hex
