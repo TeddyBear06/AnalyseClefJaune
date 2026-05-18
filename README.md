@@ -8,6 +8,8 @@ Plusieurs choses que je n'explique pas :
 2. Comme ce groupe ayant révélé ceci a eu l'idée de créer cette arborescence, d'utiliser ces noms de fichiers et ce contenu de fichiers ? Fuite interne d'une procédure réservée à M&S ? Reverse engineering (ouch) ?
 3. Que'est-ce que c'est que ces fichiers... ?! Plutôt vides, avec des références à des fichiers de logs... La seule référence semblant être intéressante celle à `Windows\System32\winpeshl.ini`...
 
+Fun fact : Windows Defender n'aime pas ces fichiers haha :-)
+
 ## 1. Analyse des fichiers
 
 Pour avoir une vue d'ensemble des fichiers :
