@@ -58,7 +58,7 @@ Un fichier complètement vide avec une signature dans son header qui fait penser
 
 ![HxD FsTxKtmLogContainer00000000000000000001](/images/FsTxKtmLogContainer00000000000000000001_1.png)
 
-`FsTxKtmLogContainer00000000000000000001` n'est pas tout a fait identique à `FsTxKtmLogContainer00000000000000000002` (ce dernier n'a pas la même signature en en-tête) :
+`FsTxKtmLogContainer00000000000000000001` n'est pas tout à fait identique à `FsTxKtmLogContainer00000000000000000002` (ce dernier n'a pas la même signature en en-tête) :
 
 ```
 god@mode:FsTx/95F62703B343F111A92A005056975458/FsTxLogs$ diff FsTxKtmLogContainer00000000000000000001.hex FsTxKtmLogContainer00000000000000000002.hex
@@ -91,7 +91,7 @@ god@mode:FsTx/95F62703B343F111A92A005056975458/FsTxLogs$ diff FsTxKtmLogContaine
 t
 ```
 
-N.B : Pour passer du binary à l'hexadécimal : 
+N.B : Pour passer du binaire à l'hexadécimal : 
 
 ```
 $ xxd FsTxKtmLogContainer00000000000000000001 > FsTxKtmLogContainer00000000000000000001.hex
@@ -126,7 +126,7 @@ On peut y voir une référence à `Winpeshl.ini` :
 
 | Utilisez le fichier Winpeshl.ini dans l’environnement de préinstallation Windows (Windows PE) pour remplacer l’invite de commandes par défaut par une application shell ou une autre application. (https://learn.microsoft.com/fr-fr/windows-hardware/manufacture/desktop/winpeshlini-reference-launching-an-app-when-winpe-starts?view=windows-11)
 
-`FsTxLogContainer00000000000000000001` n'est également pas tout a fait identique à `FsTxLogContainer00000000000000000002` (ce dernier n'a pas la même signature en en-tête et ce qui ressemble à un artefact en fin de fichier) :
+`FsTxLogContainer00000000000000000001` n'est également pas tout à fait identique à `FsTxLogContainer00000000000000000002` (ce dernier n'a pas la même signature en en-tête et ce qui ressemble à un artefact en fin de fichier) :
 
 ```
 god@mode:FsTx/95F62703B343F111A92A005056975458/FsTxLogs$ diff FsTxLogContainer00000000000000000001.hex FsTxLogContainer00000000000000000002.hex
