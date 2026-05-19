@@ -1,11 +1,11 @@
 # Analyse de la clef jaune
 
-Un groupe a révélé une technique "simple" (dans sa utilisation, quelques fichiers sur une clef USB (même pas avec une autre technique) et une manipulation au redémarrage) permettant d'accéder au contenu - chiffré - d'un volume "protégé" par B&L et ce, sans rien saisir pour effectuer le déchiffrement...
+Un groupe a révélé (cf. : https://github.com/Nightmare-Eclipse/YellowKey/tree/main) une technique "simple" (dans sa utilisation, quelques fichiers sur une clef USB (même pas avec une autre technique) et une manipulation au redémarrage) permettant d'accéder au contenu - chiffré - d'un volume "protégé" par B&L et ce, sans rien saisir pour effectuer le déchiffrement...
 
 Plusieurs choses que je n'explique pas :
 
 1. Si on accède à un contenu qui est chiffré, comment est-il déchiffré sans utilisation de clef ou de mot de passe ? Cela signifie que M&S a une clef magique permettant de tout déchiffrer ?
-2. Comme ce groupe ayant révélé ceci a eu l'idée de créer cette arborescence, d'utiliser ces noms de fichiers et ce contenu de fichiers ? Fuite interne d'une procédure réservée à M&S ? Reverse engineering (ouch) ?
+2. Comment ce groupe ayant révélé ceci a eu l'idée de créer cette arborescence, d'utiliser ces noms de fichiers et ce contenu de fichiers ? Fuite interne d'une procédure réservée à M&S ? Reverse engineering (ouch) ?
 3. Que'est-ce que c'est que ces fichiers... ?! Plutôt vides, avec des références à des fichiers de logs... La seule référence semblant être intéressante celle à `Windows\System32\winpeshl.ini`...
 
 Conclusion : Je ne m'attendais pas à ce genre de contenu de fichiers (je sais pas, j'imaginais de vrais binaires qui avaient un rôle)... Il semblerait que tout repose principalement sur les noms des fichiers/répertoires, l'arborescence et la procédure au démarrage... Pépite...
