@@ -11,6 +11,8 @@ Oui c'est bien ça car WinRe est en mesure de déchiffrer le volume BitLocker...
    manage-bde -protectors -disable c:
    ```
 
+![KB Dell](/images/ka0Do000000TqGYIA0_fr_5.jpeg)
+
 Un talk passionnant au sujet de WinRe (décembre 2025) : https://media.ccc.de/v/39c3-bitunlocker-leveraging-windows-recovery-to-extract-bitlocker-secrets
 
 3. Comment ce groupe ayant révélé ceci a eu l'idée de créer cette arborescence, d'utiliser ces noms de fichiers et ce contenu de fichiers ? Fuite interne d'une procédure réservée à M&S ? Reverse engineering (ouch) ?
