@@ -1,6 +1,6 @@
 # Analyse de la clef jaune
 
-Un groupe a révélé (cf. : https://github.com/Nightmare-Eclipse/YellowKey/tree/main) une technique "simple" (dans sa utilisation, quelques fichiers sur une clef USB (même pas avec une autre technique) et une manipulation au redémarrage) permettant d'accéder au contenu - chiffré - d'un volume "protégé" par B&L et ce, sans rien saisir pour effectuer le déchiffrement...
+Un groupe a révélé (cf. : https://github.com/Nightmare-Eclipse/YellowKey/tree/main) une technique "simple" (dans son utilisation, quelques fichiers sur une clef USB (même pas avec une autre technique) et une manipulation au redémarrage) permettant d'accéder au contenu - chiffré - d'un volume "protégé" par B&L et ce, sans rien saisir pour effectuer le déchiffrement...
 
 Plusieurs choses que je n'explique pas :
 
